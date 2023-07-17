@@ -26,5 +26,7 @@ public:
 	friend ofstream& operator<<(ofstream& ofs, Account& acc);
 	friend ifstream& operator>>(ifstream& ifs, Account& acc);
 	friend ostream& operator<<(ostream& os, Account& acc);
+
 };
+
 
